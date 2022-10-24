@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/src/css/style.css">
+  <title>Portifólio - Marcelo Ferreira Cruz</title>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <a href="#home"><img class="image-logo" src="./assets/img/logo.png" alt="Logo escrito MFC sublinhado da cor branca com uma borda cor
+    titanium">
+    </a>
+    <nav class="nav-link">
+      <a href="#sobre">Sobre</a>
+      <a href="#historia">Histórico</a>
+      <a href="#projetos">Atividades/Projetos</a>
+      <a href="#cursos">Cursos/Estudos</a>
+    </nav>
+    <div class="sandwich-menu" hidden>
+      <img class="sandwich-svg" src="./assets/img/menu.svg" alt="Menu para acessar a barra de navegação">
+    </div>
+
+  </header>
+
+  <div class="mobile-link">
+    <ul>
+      <li> <a href="#sobre">Sobre</a> </li>
+      <li> <a href="#historia">Histórico</a> </li>
+      <li> <a href="#projetos">Atividades/Projetos</a></li>
+      <li> <a href="#cursos">Cursos/Estudos</a></li>
+    </ul>
+  </div>
+
+  <main class="main-container">
+
+    <section class="about-my-container" id="sobre">
+      <img class="img-profile" src="./assets/img/marcelo-portifolio.png" alt="Foto do Marcelo Ferreira
+      Cruz, com uma borda redonda">
+      <div class="about-my-text">
+        <h1>Sobre Min</h1>
+        <h2>Guarulhos, São Paulo</h2>
+        <p>Olá, eu me chamo Marcelo Ferreira Cruz tenho 25 anos, e sou estudante do TADS <q>Tecnologia
+            em análise de desenvolvimento de sistemas, IFSP</q> e como um estudante de TI, tenho o
+          foco em conseguir resolver problemas e dar soluções, ao mesmo tempo, oferecer suporte para
+          todos aqueles que precisam de minha ajuda. Desenvolvo aplicações Web, com tecnologias consagradas
+          pelo mercado como: <strong>html, css, javascript, react</strong> entre outras... e procuro oportunidades
+          para me encaixar no mercado de trabalho.
+        </p>
+      </div>
+    </section>
+
+    <section class="history-container" id="historia">
+      <div class="history-text">
+        <h2>Histórico</h2>
+        <p>Atualmente estou no quarto semestre da faculdade no curso do TADS, Realizei projetos
+          acadêmicos na criação de programas executáveis em linguagem C e Java, além de
+          projetos de <strong>desenvolvimento Web</strong> com <strong>html, css e javascript</strong>,
+          também outros projetos de engenharia de software, Redes e Servidores. Além disso, já trabalhei informalmente
+          com panfletagem e com manutenção de hardware.
+        </p>
+      </div>
+      <img class="img-vector-history" src="./assets/img/vector-history-img.png" alt="Imagem do tipo vetor de um menino, com
+      um notebook dando tounch screen em uma janela virtual">
+    </section>
+
+    <section class="projects-container" id="projetos">
+      <h2>Projetos & Atividades</h2>
+      <select id="option">
+        <optgroup label="Selecione o projeto">
+          <option value="project-1" selected>Rom hacking</option>
+          <option value="project-2">Consumindo API</option>
+          <option value="project-3">Mercado - Estrutura de Dados</option>
+          <option value="project-4">Worksheets - CRUD - React</option>
+          <option value="project-5">Venda de imóveis - React</option>
+        </optgroup>
+      </select>
+      <button id="btn">Ver</button>
+      <div class="project-content-container" hidden>
+      </div>
+    </section>
+
+    <section class="course-container" id="cursos">
+      <h2>Cursos & Estudos</h2>
+      <div class="course-grid-container">
+        <div class="card-layout">
+          <h3>JavaScript e TypeScript</h3>
+          <p>
+            Curso voltado tanto para utilizar recursos nativos do JavaScript <q>Vanilla JS</q> quanto na utilização de
+            frameworks
+            e bibliotecas adicionais, trabalhando com o Node.JS e Express na parte do back-end e também no navegador
+            front-end,
+            Utilizando Babel e Webpack para sistema compatibilidade de módulos do ES6 em navegadores mais antigos.
+            O cursos também consiste na aprendizagem da framework React, onde se é utilizados React Hooks, Redux + e
+            Redux Saga, além de ter sessões de Banco de dados SQL com MariaDB e noSQL com MongoDB, no final
+            criaremos uma API Rest, atráves do modelo MVC de arquitetura de software seguindo os
+            padrões de Design Patters, e Orientação a objetos.
+          </p>
+        </div>
+        <div class="card-layout">
+          <h3>Desenvolvimento Web Completo</h3>
+          <p>
+            O curso Desenvolvimento Web Completo conta com mais de 570 aulas, ao todo são mais de 110 horas de
+            videoaulas
+            em que são abordadas as principais tecnologias web do momento, o pacote reúne 20 cursos,
+            entre as tecnologias: HTML5, CSS3, BootStrap 4, Design responsivo Java Script, ES6 (JavaScript Moderno),
+            PHP7,
+            Orientação a Objetos, MySQL, PHP com PDO, Ajax, JQuery, MVC, APIs, IONIC, WordPress, SASS.
+          </p>
+        </div>
+        <div class="card-layout">
+          <h3>Faculdade</h3>
+          <p>
+            Atualmente estou no quarto semestre da faculdade <q>4/6</q> e já tive experiência com lógica de programação
+            e
+            estrutura de dados em linguagem C, onde realizei dois projetos com essa respectiva linguagem, outra
+            linguagem
+            que já tive experiência foi com java, onde aprendemos os paradigmas da orientação a objetos e seus pilares
+            onde construi um pequeno sistema de passagem aérea. Além dessas linguagens de back-end também cursei
+            desenvolvimento web onde aprendemos html, css e javascript onde tivemos que construir um site para web.
+          </p>
+        </div>
+        <div class="card-layout">
+          <h3>React</h3>
+          <p>
+            Curso de react voltado para iniciantes na biblioteca do react, onde explora do mais básico até o
+            o mais avançado do react. Tópicos separados por, Fundamentos do react, componentização, CSS com react,
+            Formulários, com hooks de tratamento de eventos, validação e envio para API, requisições http,
+            React router, context API, e redux. Além dos pontos citados o curso apresenta imersão do full stack
+            com tecnologias criada atráves dos projetos do curso, como o Node.js, Express, MongoDB com Mongoose
+            Firebase, além disso, o curso propoem módulos extras como Criação de APIs e TypeScript com react.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p><strong>Desenvolvido por Marcelo F. Cruz</strong></p>
+      <p>Entre em contato comigo atrávez das minhas redes sociais:</p>
+      <div class="contact-logos">
+        <a href="https://www.instagram.com/marceloxris__/" target="_blank"><img src="./assets/img/instagram.svg"
+            alt="Logo do instagram"></a>
+        <a href="https://twitter.com/Xris__" target="_blank"><img src="./assets/img/twitter.svg"
+            alt="Logo do twitter"></a>
+        <a href="https://github.com/MarceloDevCruz" target="_blank"><img src="./assets/img/github.svg"
+            alt="Logo do github"></a>
+        <a href="#"><img src="./assets/img/linkedin.svg" alt="Logo do linkedin"></a>
+        <a href="https://codepen.io/marceloDEVcruz" target="_blank"><img src="./assets/img/codepen.svg"
+            alt="Logo do codepen"></a>
+        <a href="https://api.whatsapp.com/send?phone=5511969784354" target="_blank"><img src="./assets/img/whatsapp.svg"
+            alt="Logo do whatsapp"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/src/js/script.js"></script>
+</body>
+
+</html>
