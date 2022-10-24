@@ -98,7 +98,7 @@ const Script = () => {
       também o projeto está responsivo para todas as telas utilizadas hoje em dia, além de um design minimalista e criativo.
       <p> Nesse projeto foi utilizado, <strong> html, css, javascript, es6, React, React router, context, Firebase, CRUD</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
-      
+      <a href="https://github.com/MarceloDevCruz/worksheets-react" target="_blank">GitHub</a><br>
       `
       projectContainer.appendChild(elementTitle)
       projectContainer.appendChild(elementText)
