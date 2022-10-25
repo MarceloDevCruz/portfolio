@@ -99,7 +99,19 @@ const Script = () => {
       <p> Nesse projeto foi utilizado, <strong> html, css, javascript, es6, React, React router, context, Firebase, CRUD</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
       <a href="https://github.com/MarceloDevCruz/worksheets-react" target="_blank">GitHub</a><br>
+      <a href="https://udockers-react-worksheets.netlify.app/" target="_blank">Netlify</a><br>
       `
+      projectContainer.appendChild(elementTitle)
+      projectContainer.appendChild(elementText)
+
+    }
+
+    else if (value === 'project-5') {
+      elementText.innerHTML =
+        `
+      Em desenvolvimento...
+      `
+
       projectContainer.appendChild(elementTitle)
       projectContainer.appendChild(elementText)
 
