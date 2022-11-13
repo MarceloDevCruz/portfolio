@@ -122,7 +122,7 @@ const Script = () => {
         `
       <p>Projeto e desafio do curso de ReactJs proposto para o consumo da API TMDB, uma api gratuita de infomações de filmes internacionais,
       para esse projeto foi criado componentes e páginas especificas para cada função do site, para a inicialização do projeto foi usado 
-      o vite, que propõe uma criação e build de projetos mais rápidas e também de menor custo computacional do que o CRM.</p>
+      o vite, que propõe uma criação e build de projetos mais rápidas e também de menor custo computacional do que o CRA.</p>
       <p> Nesse projeto foi utilizado, <strong> html, css, javascript, es6, React, React router, vite, Consume de API</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
       <a href="https://github.com/MarceloDevCruz/react-tmdb" target="_blank">GitHub</a><br>
