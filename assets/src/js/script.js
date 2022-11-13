@@ -54,10 +54,10 @@ const Script = () => {
 
       elementText.innerHTML =
         `
-      Utilizando os conceitos dos cursos e da faculdade, elaborei uma página html para exibir os dados relacionados a COVID-19 de um determinado estado do Brasil,
+      <p>Utilizando os conceitos dos cursos e da faculdade, elaborei uma página html para exibir os dados relacionados a COVID-19 de um determinado estado do Brasil,
       a página web contem um campo input para o usuário digitar CEP que deseja pesquisar, por meio do JavaScript validando o campo de CEP e incluindo a máscara de CEP corretamente.
       Através da API de CEP consultando o estado pesquisado e passando-o como parâmetro da requisição para a API do COVID-19 e exibindo os dados de retorno na mesma página onde foi
-      digitado o CEP. <br> <p> Nesse projeto foi utilizado, <strong> JavaScript, Css, Html.</strong></p><br>
+      digitado o CEP.</p> <p> Nesse projeto foi utilizado, <strong> JavaScript, Css, Html.</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
       <a href="https://luminous-nasturtium-a35da4.netlify.app/" target="_blank">Netlify</a> <br>
       <a href="https://github.com/MarceloDevCruz/dw2A4/tree/master/Atividades/A4" target="_blank">GitHub</a>
@@ -71,12 +71,12 @@ const Script = () => {
 
       elementText.innerHTML =
         `
-      Projeto da disciplina de Estrutura de dados onde tivemos que desenvolver um sistema em linguagem C para o caixa do mercado
+      <p>Projeto da disciplina de Estrutura de dados onde tivemos que desenvolver um sistema em linguagem C para o caixa do mercado
       com controle de entrada e saida dos itens do mercado, para isso, tivemos que obrigatóriamente utilizar algumas estruturas de
       dados conhecidas pelo mercado, como a Fila e a Pilha, além de utilizar busca binária para sessão de log do usuário no sistema
       além de utilizar e implementar o algoritmo de quick sort para ordenação de itens, também utilizando novos requisistos, utilizei
       métodos para leitura, escrita e remoção de arquivos de documento. O sistema foi criado como uma aplicação desktop que utiliza
-      de um terminal para a sua execução.
+      de um terminal para a sua execução.</p>
       <p> Nesse projeto foi utilizado, <strong> Estrutura de Dados, pilha e fila, linguagem de programação C.</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
       <a href="https://github.com/MarceloDevCruz/Projetos-IFSP/blob/main/Projeto.c" target="_blank">GitHub</a><br>
@@ -90,12 +90,12 @@ const Script = () => {
 
       elementText.innerHTML =
         `
-      Projeto em react onde usei CRUD, "Create, Read, Update e Delete", uma pequena aplicação de criação de Worksheets
+      <p>Projeto em react onde usei CRUD, "Create, Read, Update e Delete", uma pequena aplicação de criação de Worksheets
       utilizando a biblioteca React e suas bases (React Router, Hooks e custom hooks, context) e também banco de dados em cloud
       Firebase do google, além de fazer autenticação de novos usuários, para esse projeto usei uma estrutura de páginas separadas em public
       e src, onde fiz da forma de como se encontra no mercado de trabalho, criando pastas separadas para cada contexto de utilização
       Além disso, fiz todo o projeto estruturando o código em inglês que também é uma abordagem feita no mercado de trabalho atualmente,
-      também o projeto está responsivo para todas as telas utilizadas hoje em dia, além de um design minimalista e criativo.
+      também o projeto está responsivo para todas as telas utilizadas hoje em dia, além de um design minimalista e criativo. </p>
       <p> Nesse projeto foi utilizado, <strong> html, css, javascript, es6, React, React router, context, Firebase, CRUD</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
       <a href="https://github.com/MarceloDevCruz/worksheets-react" target="_blank">GitHub</a><br>
@@ -109,7 +109,24 @@ const Script = () => {
     else if (value === 'project-5') {
       elementText.innerHTML =
         `
-      Em desenvolvimento...
+      <p>Em desenvolvimento...</p>
+      `
+
+      projectContainer.appendChild(elementTitle)
+      projectContainer.appendChild(elementText)
+
+    }
+
+    else if (value === 'project-6') {
+      elementText.innerHTML =
+        `
+      <p>Projeto e desafio do curso de ReactJs proposto para o consumo da API TMDB, uma api gratuita de infomações de filmes internacionais,
+      para esse projeto foi criado componentes e páginas especificas para cada função do site, para a inicialização do projeto foi usado 
+      o vite, que propõe uma criação e build de projetos mais rápidas e também de menor custo computacional do que o CRM.</p>
+      <p> Nesse projeto foi utilizado, <strong> html, css, javascript, es6, React, React router, vite, Consume de API</strong></p><br>
+      <p>Veja um pouco mais sobre o projeto: </p><br>
+      <a href="https://github.com/MarceloDevCruz/react-tmdb" target="_blank">GitHub</a><br>
+      <a href="https://react-tmdb-mfc.netlify.app/" target="_blank">Netlify</a><br>
       `
 
       projectContainer.appendChild(elementTitle)
