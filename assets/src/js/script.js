@@ -43,7 +43,8 @@ const Script = () => {
         trabalho e contato com design, que me fez ter vontade de me tornar um desenvolvedor web. <p> Nesse projeto foi utilizado, <strong> Editor hexadecimal, Assembly, e Criatividade de Design </strong></p><br>
         <p>Veja um pouco mais sobre o projeto: </p><br>
         <a href="https://www.romhacking.net/hacks/5018/" target="_blank">RomHacking</a><br>
-        <a href="https://www.youtube.com/watch?v=RPqi99KjSD8&ab_channel=Christodoulopoulos" target="_blank">Youtube</a>
+        <a href="https://www.youtube.com/watch?v=RPqi99KjSD8&ab_channel=Christodoulopoulos" target="_blank">Youtube</a><br>
+        <a href="https://github.com/MarceloDevCruz/kid-chameleon-the-last-showdown" target="_blank">GitHub</a>
       `
       projectContainer.appendChild(elementTitle)
       projectContainer.appendChild(elementText)
@@ -129,6 +130,28 @@ const Script = () => {
       <a href="https://react-tmdb-mfc.netlify.app/" target="_blank">Netlify</a><br>
       `
 
+      projectContainer.appendChild(elementTitle)
+      projectContainer.appendChild(elementText)
+
+    }
+
+    else if (value === 'project-7') {
+
+      elementText.innerHTML =
+        `
+    <p>Projeto que fiz utilizando a arquitetura de software MVC <strong>Model View Controller</strong>, Comente-sobre é um <strong>CRUD</strong> que tem autenticação de
+    usuários no sistema onde usei o banco de dados MySQL para persistir os dados de login e de comentários de post dos projeto, as funcionalidades
+    desse projeto consiste em, escrever um posto qualquer com um título e uma descrição, ou seja o comentário que você deseja fazer para o seu post
+    e com isso você pode compartilhar para outros usuários que tenham uma conta o seu post, você também tem a opção de editar, e excluir seus post,
+    na página home você pode encontrar todos os post de todos os outros usúarios, também foi realizado features de ordenação dos post, dos mais antigos
+    até os mais recentes, e ainda uma feature de busca onde o ORM vai filtrar tanto buscas com o título quanto buscas dentro do comentário do usuário.
+    Na persistencia de dados foi usado o pacote do bcrypts para criptografar a senha passada para o banco de dados para requisistos de segurança.</p>
+    <p>Além disso, para esse projeto pretendo adicionar outras novas features no futuro, como funcionalidade de like e também de comentário em um determinado post.</p>
+    <p>Para desenvolver esse projeto foi usado:<strong> NodeJS, Bootstrap ,bcrypts, express, handlebars, MySql, sequelize, validator e outras dependências... </strong></p><br>
+    <p>Veja um pouco mais sobre o projeto: </p><br>
+    <a href="https://github.com/MarceloDevCruz/comente-sobre" target="_blank">GitHub</a><br>
+
+    `
       projectContainer.appendChild(elementTitle)
       projectContainer.appendChild(elementText)
 
