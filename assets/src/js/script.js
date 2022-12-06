@@ -80,7 +80,8 @@ const Script = () => {
       de um terminal para a sua execução.</p>
       <p> Nesse projeto foi utilizado, <strong> Estrutura de Dados, pilha e fila, linguagem de programação C.</strong></p><br>
       <p>Veja um pouco mais sobre o projeto: </p><br>
-      <a href="https://github.com/MarceloDevCruz/Projetos-IFSP/blob/main/Projeto.c" target="_blank">GitHub</a><br>
+      <a href="https://github.com/MarceloDevCruz/Estrutura-de-dados-em-C" target="_blank">GitHub</a><br>
+      <a href="https://www.youtube.com/watch?v=oLinYmxOZHk&ab_channel=Christodoulopoulos" target="_blank">YouTube</a><br>
       `
       projectContainer.appendChild(elementTitle)
       projectContainer.appendChild(elementText)
