@@ -129,6 +129,8 @@ const Script = () => {
       <p>Veja um pouco mais sobre o projeto: </p><br>
       <a href="https://github.com/MarceloDevCruz/react-tmdb" target="_blank">GitHub</a><br>
       <a href="https://react-tmdb-mfc.netlify.app/" target="_blank">Netlify</a><br>
+
+      <p> EM FASE DE ATUALIZAÇÃO!</p>
       `
 
       projectContainer.appendChild(elementTitle)
