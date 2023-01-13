@@ -161,6 +161,25 @@ const Script = () => {
 
       projectContainer.appendChild(elementTitle);
       projectContainer.appendChild(elementText);
+    } else if (value === "project-10") {
+      elementText.innerHTML = `
+      <p>Unsplashgram é uma rede social feita em NodeJs e ReactJs, e com o banco de dados MongoDb, foi projetado pensando em fullstack, usando no banco de dados
+      mongoDb com uma instância em cloud, o <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank"> MongoDb Atlas </a> para armazenar posts e fotos dos usuários,
+      ele tem as funcionalidades de comentários, likes, postar novas fotos e fazer update do usuário, além de login e registro.
+      </p><br>
+      <p><strong>Frontend</strong></p>
+      <p>Frontend criado para a api unsplashgram, com a tecnologia ReactJs para componentização, router-dom, para criar uma página SPA, junto com sass para pré-processar o css,
+      , nesse projeto eu faço o consumo da API que criei, uma rede social com design responsivo e prototipado com o figma, inicialmente foi criada páginas para registro, login, home,
+      edição de usuário, post individual, e criação de post.</p>
+      <p>Foi usado Redux para gerêncimento de dados e eventos globais na aplicação, com o auxilio do redux-devtools, foi usado padrão de páginas service/slice para melhorar a padronização
+      e facilitação do código na hora de implementação do redux e para adição futuras de features, além disso também foi usado custom hooks para autorização do usuário no sistema, e também
+      na busca de post com query.</p>
+      <p>Para realizar esse projeto foi usado as seguintes tecnologias: <strong>ReactJs, react-icons, react-redux, vite, sass, postcss, figma.</strong></p><br>
+      <a href="https://github.com/MarceloDevCruz/instagram/tree/main/frontend" target="_blank">GitHub</a><br>
+      <a href="https://unsplashgram.netlify.app/" target="_blank">Netlify</a><br>
+      `;
+      projectContainer.appendChild(elementTitle);
+      projectContainer.appendChild(elementText);
     }
   };
 
