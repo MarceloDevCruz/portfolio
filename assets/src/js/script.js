@@ -136,6 +136,31 @@ const Script = () => {
     `;
       projectContainer.appendChild(elementTitle);
       projectContainer.appendChild(elementText);
+    } else if (value === "project-9") {
+      elementText.innerHTML = `
+      <p>
+        Unsplashgram é uma rede social feita em NodeJs e ReactJs, e com o banco de dados MongoDb, foi projetado pensando em fullstack, usando no banco de dados
+        mongoDb com uma instância em cloud, o <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank"> MongoDb Atlas </a> para armazenar posts e fotos dos usuários,
+        ele tem as funcionalidades de comentários, likes, postar novas fotos e fazer update do usuário, além de login e registro.
+      </p><br>
+      <p><strong>Backend</strong></p>
+      <p>Foi criada uma api para o unsplashgram em NodeJs com express onde aprendi todos os verbos http GET POST PUT e DELETE colocando em prática ao longo do projeto, como por exemplo
+      métodos de atualização de um usuário, com o PUT, método de retornar todos os post da página home, com o GET, deletar um post com o DELETE, e também enviar um novo post
+      com o verbo POST, para a estrutura de páginas foi usado o MVC, onde o model foi controlado com a ORM mongoose, onde faz verificações nos dados antes de mandar para o banco
+      de dados, é uma ótima alternativa para ter um melhor controle em banco de dados não relacionais, para o controller foram feitas as regras de negócio do projeto, basicamente
+      foi tratado como os dados seria tratados e como iriam proceder, e também por último o view, que foi aplicado separado, que é a própria arquitetura front-end...</p>
+      <p>Além das pastas dos models e controllers, foram criados middlewares, para verificação de dados e validações de informações repassadas do usuário para o sistema, também
+      uma pasta apenas para o tratamento e gerenciamento de rotas. Foi construido um sistema de login cadastro e autenticação de usuários, preocupado com a segurança do sistema
+      utilizei a depedência bcryptjs, no qual cuida da segurança de senha dos usuários, criando um hash onde ele gerência as senhas para o sistema, assim, fazendo que nunca seja
+      exposto senhas dos usuários em um possível ataque no banco de dados, foi usado também o jsonwebtoken, que é uma estrutura protegida com criptografia, pelo qual dados passam
+      pelo mesmo fazendo assim que o sistema seja capaz de identificar a autenticidade de um usuário pelo token que é salva no próprio localstorage do navegador do usuário.</p>
+      <p>Para realizar esse projeto foi usado as seguintes tecnologias: <strong>node, express, MVC, bcryptjs, jsonwebtoken, .env, mongoose, multer, nodemon e Postman para teste de rotas.</strong></p><br>
+      <a href="https://github.com/MarceloDevCruz/instagram/tree/main/backend" target="_blank">GitHub</a><br>
+      <a href="https://unplashgram-api.onrender.com/" target="_blank">Render</a><br>
+      `;
+
+      projectContainer.appendChild(elementTitle);
+      projectContainer.appendChild(elementText);
     }
   };
 
