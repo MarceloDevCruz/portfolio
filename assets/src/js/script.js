@@ -84,7 +84,15 @@ const Script = () => {
       projectContainer.appendChild(elementText);
     } else if (value === "project-5") {
       elementText.innerHTML = `
-      <p>Em desenvolvimento...</p>
+      <p>Pomodoro é uma técnica para aumentar a potência dos estudos, ele se baseia em dividir o tempo de suas tarefas, em pausas curtas e longas
+      , além disso, o projeto foi realizado para acrescentar a funcionalidade de edição do tempo do pomodoro, tanto para tarefas quanto para pausas
+      curtas e longas, após o crônometro do tempo chegar a 0, será ativado o alarme que tocará indicando qual será a sua próxima tarefa no qual terá que
+      realizar, nesse projeto, tentei aprimorar minhas habilidades de sass e css, com o design mais interessante e na adição de backgrounds vetorizados que
+      da o aspecto mais modernos para sites, também na parte de responsividade tentei focar não só em apenas um padrão pré-definidos de telas, mas sim na
+      medida em que o site poderia quebrar ou soar estranho, também utilizei o eslint e prettier para a padronização do código.</p><br>
+      <p>Para realizar esse projeto foi usado as seguintes tecnologias: <strong>reactJs, sass, eslint, prettier, figma, context, redux, react-icons</strong></p><br>
+      <a href="https://github.com/MarceloDevCruz/pomodoro-app" target="_blank">GitHub</a><br>
+      <a href="https://mfc-pomodoro.netlify.app/" target="_blank">Netlify</a><br>
       `;
 
       projectContainer.appendChild(elementTitle);
