@@ -188,6 +188,22 @@ const Script = () => {
       `;
       projectContainer.appendChild(elementTitle);
       projectContainer.appendChild(elementText);
+    } else if (value === "project-11") {
+      elementText.innerHTML = `
+      <p>Projeto realizado em reactJs, usando Router dom, context api para manipulação de estados globais, e também axios para requisições
+      assicronas, yugioh é um card game baseado no anime e manga do mesmo nome, onde existe diversos tipos de cards, criaturas de raça
+      e cartas especiais, no total existem mais de 12000 cards e para esse projeto foi pensado na utilização e implementação do recurso
+      de paginação, também filtragem dos tipos de cartas, além disso para praticar minhas habilidades de lógica de programação mais
+      especificamente métodos de array, como filter, map e criação de Arrays literais, também fiz a implementação de temas de paleta
+      de cores onde tem o tema padrão light, e o tema dark, o projeto está totalmente responsivo, foi planejado uma prototipação de baixa
+      fidelidade para ter apenas noção de como poderia ficar o projeto.</p><br>
+      <p>Para realizar esse projeto foi usado as seguintes tecnologias: <strong>reactJs, sass, eslint, prettier, figma,
+      context, react-icons, axios.</strong></p><br>
+      <a href="https://github.com/MarceloDevCruz/Yugioh-commerce" target="_blank">GitHub</a><br>
+      <a href="https://yugioh-shop-mfc.netlify.app/" target="_blank">Netlify</a><br>
+      `;
+      projectContainer.appendChild(elementTitle);
+      projectContainer.appendChild(elementText);
     }
   };
 
